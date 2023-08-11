@@ -1,0 +1,143 @@
+input.form-control {
+    margin-bottom: 5px;
+}
+
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+.scroll-overflow-y
+{
+    overflow-y: scroll;
+    position: relative;
+    height: -moz-calc(100vh - 140px); /* Firefox -> 100vh - padding top - padding bottom*/
+    height: -webkit-calc(100vh - 140px); /* Chrome, Safari -> 100vh - padding top - padding bottom*/
+}
+
+.navbar-default {
+    background-color: #337ab7;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-default .navbar-nav .navbar-font {
+    /**padding: 10px 17px;*/
+    color:white;
+    font-size:20px;
+    line-height: 25px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav li a:focus {
+    color:blanchedalmond;
+    font-size:20px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color:lightskyblue;
+    font-size:22px;
+}
+
+.navbar-default .navbar-brand:focus {
+    color:blanchedalmond;
+    font-size:20px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color:lightskyblue;
+    font-size:22px;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.list-element-menu {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+}
+
+.youtube-widget {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    margin-right: 35px;
+}
+
+.youtube-widget iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.white {
+    background: white !important;
+}
+
+.display-none {
+    display: none;
+}
+
+
+.ng-submitted.ng-invalid {
+  color: red;
+}
+
+.ng-submitted .ng-invalid {
+    color: indianred;
+}
+form {
+    padding: 10px;
+}
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+.ng-invalid .error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.navbar-default .navbar-link {
+    color: #fff;
+}
+
+.btn-rem-pad {
+    padding-bottom: 0px;
+    padding-top: 5px;
+    background-color: #337ab7;
+    color: #fff;
+}
+
+.btn-rem-pad:hover {
+    color:lightskyblue;
+    font-color: lightskyblue !important;
+}
+
+.my-li {
+    color: transparent !important;
+}
